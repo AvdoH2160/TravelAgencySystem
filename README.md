@@ -1,43 +1,64 @@
 # Travel Agency Information System
 
-This is a **Java desktop application** developed in **Eclipse IDE** using **Swing** and the **MVC architecture**.  
-The project represents an information system for a travel agency, designed as a prototype version without database connection (using mock/fake data).
+**Travel Agency Information System** (Agencija za prevoz putnika) is a **Java desktop application** developed using **Swing** as part of a university project.  
+The system is designed to **support the management, organization, and operational processes** of a travel agency that provides services via land (car, van, bus), air (plane), or water (boat, ferry) vehicles, either owned by the agency or by partner companies.  
 
-## Features
-- 🚍 **Destinations management** – create and view destinations  
-- 🚌 **Trips management** – trips linked with travel types  
-- 🚗 **Vehicles management** – vehicles organized by type and subtype  
-- 🎟️ **Clients and reservations** – register clients and manage their reservations  
-- 💰 **Price list** – manage travel prices  
-- 🏷️ **Special offers** – manage promotional/discount offers  
-- 🛠️ **Interventions** – manage interventions related to vehicles or trips  
-- 🌳 **Application Browser** – hierarchical JTree navigation structure  
-- 📊 **Dynamic tables** – display of data with support for CRUD operations (on mock data in this version)  
+---
+
+## Key Features
+
+- 🚍 **Agency Management** – manage branch offices and organizational units  
+- 🚌 **Trips and Destinations** – organize trips linked with travel types and destinations  
+- 🚗 **Vehicles Management** – define vehicle types, subtypes, and assign vehicles to trips  
+- 🎟️ **Clients and Reservations** – register clients and handle reservations  
+- 💰 **Pricing** – define and manage travel prices  
+- 🏷️ **Special Offers** – manage promotional packages and discounts  
+- 🛠️ **Interventions** – manage maintenance or operational interventions related to vehicles or trips  
+- 🌳 **Application Browser** – hierarchical JTree navigation for all modules  
+- 📊 **Dynamic Tables** – display and interact with data (connected to MSSQL database) supporting CRUD operations  
+
+---
 
 ## Application Browser Structure
-The system is organized as follows:
-1. **Agency Functioning**  
-   - Branch offices  
-2. **Destinations**  
-   - Destination  
-3. **Trips**  
-   - Travel types  
-   - Trip  
-4. **Vehicles**  
-   - Vehicle types  
-   - Vehicle subtypes  
-   - Vehicle  
-5. **Special Offers**  
-   - Special offer  
-6. **Clients and Reservations**  
-   - Client  
-   - Reservation  
+
+The system is structured to reflect the agency’s operations:
+
+1. **Agency Functioning** – branch offices and organizational units  
+2. **Destinations** – manage all travel destinations  
+3. **Trips** – manage travel types and specific trips  
+4. **Vehicles** – manage vehicle types, subtypes, and individual vehicles  
+5. **Special Offers** – create and view promotional packages  
+6. **Clients and Reservations** – manage client information and reservations  
+
+---
+
+## Goals and Guidelines
+
+The application follows these core goals:
+
+- Support management of travel agencies with multiple branches  
+- Manage agency services and vehicles, including pricing and service composition  
+- Organize trips and destinations efficiently  
+- Handle promotional offers (e.g., excursions, attractions)  
+- Generate reports on services provided for destinations over specific periods  
+
+---
 
 ## Technologies Used
-- Java SE  
-- Eclipse IDE  
-- Swing (for GUI)  
-- MVC design pattern  
+
+- **Java SE**  
+- **Swing** for GUI  
+- **MSSQL** database  
+
+---
+
+## Notes
+
+- This project demonstrates **Java desktop application development**, **GUI design**, and **object-oriented programming principles**.  
+
+---
 
 ## Author
-Developed by Natasa Elez as part of a university project.
+
+Developed by **Nataša Elez** as part of a university project.  
+
