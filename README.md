@@ -60,5 +60,5 @@ The application follows these core goals:
 
 ## Author
 
-Developed by **Avdo Hrnjić** as part of a university project.  
+Developed by Nataša Elez [https://github.com/elez-n] and **Avdo Hrnjić** as part of a university project.  
 
